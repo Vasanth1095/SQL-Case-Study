@@ -1,0 +1,1 @@
+SELECT *,round((profit*100/net_sales),2) as Gross_margin_pct FROM gdb023.profit_tb;
